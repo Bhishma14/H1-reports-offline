@@ -12,5 +12,5 @@ Web application and scrappers for HackerOne reports &amp; bounty programs
 7. Execute ```python reports_scrapper.py``` to scrape all bug reports.
 8. Execute ```php artisan serve``` to start the web application.
 
-Now you can only do steo 8 everytime you want to see a report or bounty program no matter if it is offline.
+Now you can only do step 8 everytime you want to see a report or bounty program no matter if it is offline.
 Steps 1-7 needs internet.
