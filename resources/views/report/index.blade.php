@@ -45,7 +45,7 @@
                             <td>{{$report->title}}</td>
                             <td><a href="{{route('reporter',['name'=>$report->reporter])}}">{{$report->reporter}}</a></td>
                             <td>{{$report->bounty}}</td>
-                            <td><a href="{{route('program', ['name'=>$report->bounty_program])}}">{{$report->bounty_program}}</a></td>
+                            <td><a href="{{route('program', ['name'=>$report->bounty_program()])}}">{{$report->bounty_program}}</a></td>
                         </tr>
                         @endforeach
                     </tbody>
